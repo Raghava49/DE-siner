@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>DE-Signer</title>
+		<script type="text/javascript"> window.$ = window.jQuery = require('./Jquery/jquery.min.js'); </script>
+		<script type="text/javascript" src="./Layout engine/js/goldenlayout.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="./Layout engine/css/goldenlayout-base.css"/>
+		<link type="text/css" rel="stylesheet" href="./Layout engine/css/goldenlayout-light-theme.css"/>
+  </head>
+  <body>
+    <script type="text/javascript">
+  	require('coffee-script/register');
+    require('./Layout/initial.coffee');
+		require('./renderer.coffee');
+    require('./Layout/runtime.coffee');
+		</script>
+  </body>
+
+</html>

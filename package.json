@@ -1,0 +1,31 @@
+{
+  "name": "DE-siner",
+  "version": "1.0.0",
+  "description": "Web designer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Raghava49/DE-siner.git"
+  },
+  "keywords": [
+    "DE",
+    "siner",
+    "DE-siner"
+  ],
+  "author": "Raghava chellar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raghava49/DE-siner/issues"
+  },
+  "homepage": "https://github.com/Raghava49/DE-siner#readme",
+  "devDependencies": {
+    "coffee-script": "^1.9.2",
+    "electron-prebuilt": "^1.0.1"
+  },
+  "dependencies": {
+    "coffee-script": "^1.10.0"
+  }
+}
